@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='app'>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link href="css/custom/navbar-fixed-top.css" rel="stylesheet"/>
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="js/custom/app.js"></script>
+    <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <!-- UI-Router-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="js/custom/app.js"></script>
+    <link rel="alternate" type="application/rss+xml" title="Latest snippets from Bootsnipp.com" href="http://bootsnipp.com/feed.rss" />
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://bootsnipp.com/dist/bootsnipp.min.css?ver=7d23ff901039aef6293954d33d23c066">
+
+</head>
+<body>
+
+<!-- Fixed navbar -->
+<!--<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="img/AngularJS-small.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">SignUp</a></li>
+            </ul>
+        </div>&lt;!&ndash;/.nav-collapse &ndash;&gt;
+    </div>
+</nav>-->
+
+
+<div ui-view>
+
+
+</div>
+
+<!--<div class="container">
+
+    &lt;!&ndash; Main component for a primary marketing message or call to action &ndash;&gt;
+    <div class="jumbotron">
+        &lt;!&ndash;<div class="alert alert-info">
+            email: test<br />
+            Password: test
+        </div>&ndash;&gt;
+        &lt;!&ndash;<div ng-show="error" class="alert alert-danger">{{error}}</div>&ndash;&gt;
+        &lt;!&ndash;<form name="form" ng-submit="login()" role="form" novalidate>&ndash;&gt;
+        <form name="form" role="form" novalidate  >
+            <div class="form-group">
+                <label for="email">Email</label>
+               &lt;!&ndash; <i class="fa fa-key"></i>&ndash;&gt;
+                <input type="email" name="email" id="email" class="form-control" ng-model="email" required />
+               &lt;!&ndash; <span ng-show="form.email.$dirty && form.email.$error.required" class="help-block">email is required</span>&ndash;&gt;
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                &lt;!&ndash;<i class="fa fa-lock"></i>&ndash;&gt;
+                <input type="password" name="password" id="password" class="form-control" ng-model="password" required />
+                &lt;!&ndash;<span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Password is required</span>&ndash;&gt;
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-danger" ng-click="login()">Login</button>
+                &lt;!&ndash;<button type="submit" ng-disabled="form.$invalid || dataLoading" class="btn btn-danger" ng-click="saveContact()">Login</button>&ndash;&gt;
+                <img ng-if="dataLoading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA=="/>
+            </div>
+        </form>
+    </div>
+
+</div> &lt;!&ndash; /container &ndash;&gt;-->
+
+
+
+
+<!--<body ng-app="sampleApp">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="nav">
+                <li><a href="#AddNewOrder"> Add New Order </a></li>
+                <li><a href="#ShowOrders"> Show Order </a></li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <div ng-view></div>
+        </div>
+    </div>
+</div>
+</body>-->
+</html>
